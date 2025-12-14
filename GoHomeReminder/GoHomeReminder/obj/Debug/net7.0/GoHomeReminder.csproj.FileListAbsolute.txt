@@ -1,0 +1,14 @@
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\bin\Debug\net7.0\GoHomeReminder.exe
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\bin\Debug\net7.0\GoHomeReminder.deps.json
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\bin\Debug\net7.0\GoHomeReminder.runtimeconfig.json
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\bin\Debug\net7.0\GoHomeReminder.dll
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\bin\Debug\net7.0\GoHomeReminder.pdb
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\obj\Debug\net7.0\GoHomeReminder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\obj\Debug\net7.0\GoHomeReminder.AssemblyInfoInputs.cache
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\obj\Debug\net7.0\GoHomeReminder.AssemblyInfo.cs
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\obj\Debug\net7.0\GoHomeReminder.csproj.CoreCompileInputs.cache
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\obj\Debug\net7.0\GoHomeReminder.dll
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\obj\Debug\net7.0\refint\GoHomeReminder.dll
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\obj\Debug\net7.0\GoHomeReminder.pdb
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\obj\Debug\net7.0\GoHomeReminder.genruntimeconfig.cache
+C:\Users\ebrahimi\source\repos\GoHomeReminder\GoHomeReminder\obj\Debug\net7.0\ref\GoHomeReminder.dll
