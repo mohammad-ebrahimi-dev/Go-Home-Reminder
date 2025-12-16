@@ -8,23 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ebrahimi\\.nuget\\packages\\": {},
+    "D:\\Users\\ebrahimi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ebrahimi\\source\\repos\\GoHomeReminder\\GoHomeReminder\\GoHomeReminder.csproj",
+      "projectUniqueName": "D:\\Users\\ebrahimi\\Desktop\\Project\\Go-Home-Reminder\\GoHomeReminder\\GoHomeReminder\\GoHomeReminder.csproj",
       "projectName": "GoHomeReminder",
-      "projectPath": "C:\\Users\\ebrahimi\\source\\repos\\GoHomeReminder\\GoHomeReminder\\GoHomeReminder.csproj",
-      "packagesPath": "C:\\Users\\ebrahimi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ebrahimi\\source\\repos\\GoHomeReminder\\GoHomeReminder\\obj\\",
+      "projectPath": "D:\\Users\\ebrahimi\\Desktop\\Project\\Go-Home-Reminder\\GoHomeReminder\\GoHomeReminder\\GoHomeReminder.csproj",
+      "packagesPath": "D:\\Users\\ebrahimi\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\ebrahimi\\Desktop\\Project\\Go-Home-Reminder\\GoHomeReminder\\GoHomeReminder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ebrahimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\ebrahimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -32,7 +32,8 @@
         "net7.0"
       ],
       "sources": {
-        "http://192.168.10.25:8081/repository/nuget.org-proxy/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -71,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

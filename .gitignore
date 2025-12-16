@@ -1,0 +1,34 @@
+# Visual Studio
+.vs/
+
+# Build folders
+bin/
+obj/
+
+# اگر چند پروژه داری، بهتره با */ مشخص کنی:
+**/bin/
+**/obj/
+
+# فایل‌های کاربری Visual Studio
+*.user
+*.suo
+
+# فایل‌های تنظیمات محلی
+*.local
+
+# پوشه پوشیده شده توسط Rider یا IDE های JetBrains
+.idea/
+
+# فایل‌های لاگ
+*.log
+
+# فایل‌های خروجی
+*.dll
+*.exe
+*.pdb
+
+# پوشه پوشیده شده توسط npm یا پکیج‌های جاوااسکریپت (اگر استفاده کردی)
+node_modules/
+
+# فایل Go_Home.txt اگر نمی‌خوای توی گیت باشه
+Go_Home.txt

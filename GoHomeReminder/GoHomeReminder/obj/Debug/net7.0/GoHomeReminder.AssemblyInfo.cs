@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoHomeReminder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d22bf46b63f4c8e506a0e131c3cc90fe79cb4f8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoHomeReminder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoHomeReminder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

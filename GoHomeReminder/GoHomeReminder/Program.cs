@@ -17,6 +17,26 @@ namespace WorkTime
         {
             Console.WriteLine("Enter your arrival time (e.g. 8:30 or 08:30): ");
             string input = Console.ReadLine()?.Trim();
+            Console.WriteLine("Do you have any task that I remind you?(y or n)");
+            string answerForTask = Console.ReadLine().ToLower();
+            List<string> tasks = new List<string>();
+            var count = 1;
+            if (answerForTask == "y")
+            {
+                while (true)
+                {
+                    if (count == 1)
+                        Console.WriteLine("Note : if it is done just send done");
+
+                    Console.WriteLine($"Inter your task {count} :");
+                    var answer = Console.ReadLine();
+                    if (answer.ToLower() == "done")
+                        break;
+
+                    tasks.Add(answer);
+                    count++;
+                }
+            }
 
             if (!TryParseTime(input, out int hour, out int minute))
             {
@@ -40,6 +60,10 @@ namespace WorkTime
             if (!File.Exists(filePath))
             {
                 File.WriteAllText($"{desktop}\\Go_Home.txt", "Work is over!\r\nTime to go home!\r\n\r\nIt's time to relax! 😊️");
+                if (tasks.Count != 0)
+                {
+                    File.AppendAllLines($"{desktop}\\Go_Home.txt", tasks);
+                }
                 Console.WriteLine("Reminder file created on desktop: Go_Home.txt");
             }
 
@@ -50,7 +74,7 @@ namespace WorkTime
                 taskTime = leaveTime.AddDays(1);
 
             string time24 = taskTime.ToString("HH:mm");
-            string date = $"{taskTime:MM/dd/yyyy}"; 
+            string date = $"{taskTime:MM/dd/yyyy}";
 
             string command =
                 $"schtasks /create /tn \"LeaveReminder\" " +
